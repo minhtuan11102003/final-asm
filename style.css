@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.web {
+    width: 100%;
+}
+
+.header {
+    padding-top: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    left: 160px;
+
+
+}
+
+.header_navbar_list{
+    
+    position: absolute;
+}
+.header_navbar_list>li{
+    display: inline-block;
+    position: relative;
+    padding:0 15px;
+    left: 400px;
+    top: 20px;
+}
+.header_navbar_list >li>a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.header_navbar_list>li>ul{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: rgb(237, 237, 237);
+    width: 140px;
+    display: none; 
+    text-align: center;
+}
+.header_navbar_list>li>a:hover{
+    color: rgb(128, 47, 209);
+}
+.header_navbar_list>li:hover>ul{
+    display: block;
+}
+.header_navbar_list>li>ul>li>a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px 0;
+}
+.header_navbar_list>li>ul>li>a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(149, 68, 68);
+    border-radius: 999;
+}
+
+
+
+.noidung {
+    padding: 100px 10px 50px;
+    background: no-repeat;
+    background-image: url(../asm3/hinh/hinh2.png);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+
+}
+
+.bang1 {
+
+    display: inline-flex;
+    padding-left: 8%;
+
+}
+
+.noidung1 {
+    width: 60%;
+    font-size: 25px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+#tuvan {
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(49, 48, 48);
+    box-sizing: border-box;
+
+}
+
+#tuvan:hover {
+    background-color: rgb(210, 227, 227);
+    color: rgb(137, 137, 228);
+
+}
+
+/* // khóa học luyện tập thi ielst */
+.bang2 {
+    width: 100%;
+    height: 300px;
+    padding-left: 0px;
+
+}
+.noidung2{
+    font-size: 25px;
+    font-weight:500;
+    color: rgb(32, 30, 30);
+}
+
+.connoidung2 {
+    display: flex;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.hinh2 {
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+}
+.hinh2>p>a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(82, 118, 227);
+}
+
+.img1 {
+    width: 60%;
+    border-radius: 100px;
+    border: 1px solid rebeccapurple;
+}
+
+.hinh3 {
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+}
+.hinh3>p>a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(82, 118, 227);
+}
+
+.img2 {
+    width: 60%;
+    border-radius: 100px;
+    border: 1px solid rebeccapurple;
+}
+
+.hinh4 {
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+}
+.hinh4>p>a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(82, 118, 227);
+}
+
+.img3 {
+    width: 60%;
+    border: 1px solid rebeccapurple;
+    border-radius: 100px;
+}
+
+.hinh5 {
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+}
+.hinh5>p>a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(82, 118, 227);
+}
+
+
+.img4 {
+    width: 60%;
+    border-radius: 100px;
+    border: 1px solid rebeccapurple;
+}
+/* kết thúc khóa học ielts  */
+
+/* Bắt đầu nội dung 3 */
+.noidung3>img{
+    width: 80%;
+    padding-left: 10%;
+}
+/* Kết thúc nội dung 3 */
+
+
+/* Bắt đầu nội dung 4 */
+.noidung4{
+    font-size: 25px;
+    font-weight:500;
+    color: rgb(32, 30, 30);
+    padding-left: 0px;
+}
+.noidung4_hang1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+/* Chỉnh hinh1 nội dung 4 */
+.noidung4_hang1_hinh1{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang1_hinh1>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang1_hinh1>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+/*  */
+/* Chỉnh hinh2 nội dung 4 */
+.noidung4_hang1_hinh2{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang1_hinh2>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang1_hinh2>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+
+/*  */
+/* Chỉnh hinh3 nội dung 4 */
+.noidung4_hang1_hinh3{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang1_hinh3>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang1_hinh3>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+/*  */
+
+
+/* chỉnh sửa hàng 2 */
+.noidung4_hang2{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Chỉnh hinh1 nội dung 4 hàng 2*/
+.noidung4_hang2_hinh1{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang2_hinh1>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang2_hinh1>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+/*  */
+/* Chỉnh hinh1 nội dung 4 hàng 2*/
+.noidung4_hang2_hinh2{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang2_hinh2>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang2_hinh2>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+/*  */
+/* Chỉnh hinh1 nội dung 4 hàng 3*/
+.noidung4_hang2_hinh3{
+    width: 30%;
+    text-align: center;
+}
+.noidung4_hang2_hinh3>a>p{
+    color: black;
+    font-size: 18px;
+}
+.noidung4_hang2_hinh3>a>p:hover{
+    color: rgb(23, 64, 125);
+}
+/*  */
+/* Kết thúc chỉnh sửa hàng 2 */
+
+
+/* Chinh sửa nội dung 5 */
+
+.noidung5{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+}
+.noidung5_text{
+    width: 50%;
+    padding-left: 10%;
+    font-size: 30px;
+}
+.noidung5_text>h3{
+    font-size: 40px;
+    color: red;
+}
+.noidung5_text_download{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.noidung5_text_download>a{
+    text-decoration: none;
+    color: white;
+}
+.noidung5_text_download:hover{
+    background-color: rgb(173, 221, 230);
+}
+.noidung5_text_download>a:hover{
+    color: rgb(177, 51, 19);
+}
+
+.noidung5_img{
+    width: 70%;
+    text-align: center;
+
+}
+/* Kết thúc nội dung 5 */
+
+/* Chỉnh sửa nội dung 6 */
+.noidung6{
+    width: 100%;
+}
+.noidung6_img_all{
+    display: flex;
+    padding-left: 3% ;
+    justify-content: space-between;
+}
+.noidung6_img_all_1{
+    width: 25%;
+}
+.noidung6_img_all_1>a>p{
+    font-size: 18px;
+    color: black;
+}
+.noidung6_img_all_1>a>p:hover{
+    color: rgb(52, 82, 183);
+}
+
+.noidung6_img_all_2{
+    width: 30%;
+}
+.noidung6_img_all_2>a>p{
+    font-size: 18px;
+    color: black;
+}
+.noidung6_img_all_2>a>p:hover{
+    color: rgb(52, 82, 183);
+}
+
+
+.noidung6_img_all_3{
+    width: 30%;
+}
+.noidung6_img_all_3>a>p{
+    font-size: 18px;
+    color: black;
+}
+.noidung6_img_all_3>a>p:hover{
+    color: rgb(52, 82, 183);
+}
+
+/* kết thúc nội dung 6 */
+
+
+.footer {
+    width: 100%;
+    min-height: 500px;
+    background-color: #993333;
+    display: flex;
+    border: 2px solid red;
+    position: absolute;
+}
+
+
+
+.footer_hinh1{
+    width: 20%;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 18px;
+    color: white;
+}
+.footer_hinh1 img{
+    position: relative;
+    border-radius: 99px;
+    left: 60px;
+}
+
+.footer_logo_icon>a{
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    padding: 5px;
+    color: aqua;
+}
+
+.footer_hinh2{
+    width: 20%;
+    padding-top: 20px;
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+    color: white;
+}
+
+.footer_hinh3{
+    width: 20%;
+    padding-top: 20px;
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+    color: white;
+}
+
+.footer_hinh4{
+    width: 20%;
+    padding-top: 20px;
+    position: relative;
+    left: 150px;
+    font-size: 25px;
+    color: white;
+}
+
+.phancuoi_roi{
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+
+
